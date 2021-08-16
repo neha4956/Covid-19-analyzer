@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +23,30 @@ function App() {
 }
 
 export default App;
+*/
+
+//--------------------------------Covid 13 tracker------------------------------
+import React from "react"
+import Statewise from "./component/StateWiseData/statewise";
+const App=()=>{
+     return(
+          <>
+         <Statewise/>
+          </>
+     )
+}
+
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
